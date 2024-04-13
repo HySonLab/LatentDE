@@ -12,6 +12,7 @@ if [[ $dec_type == "rnn"]]; then
 	config_file="${dirpath}/scripts/configs/rnn_template.py"
 elif [[ $dec_type == "cnn"]]; then
 	config_file="${dirpath}/scripts/configs/cnn_template.py"
+fi
 
 ref_file="${dirpath}/preprocessed_data/${dataset}/${dataset}_PEX_sequence.txt"
 
