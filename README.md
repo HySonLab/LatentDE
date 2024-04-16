@@ -3,6 +3,27 @@
 # Latent-based Directed Evolution
 </div>
 
+## Preprint
+
+Latent-based Directed Evolution accelerated by Gradient Ascent for Protein Sequence Design
+
+https://www.biorxiv.org/content/10.1101/2024.04.13.589381v1
+
+```bibtex
+@article {Ngo2024.04.13.589381,
+	author = {Nhat Khang Ngo and Thanh V. T. Tran and Viet Thanh Duy Nguyen and Truong Son Hy},
+	title = {Latent-based Directed Evolution accelerated by Gradient Ascent for Protein Sequence Design},
+	elocation-id = {2024.04.13.589381},
+	year = {2024},
+	doi = {10.1101/2024.04.13.589381},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Directed evolution has been the most effective method for protein engineering that optimizes biological functionalities through a resource-intensive process of screening or selecting among a vast range of mutations. To mitigate this extensive procedure, recent advancements in machine learning-guided methodologies center around the establishment of a surrogate sequence-function model. In this paper, we propose Latent-based Directed Evolution (LDE), an evolutionary algorithm designed to prioritize the exploration of high-fitness mutants in the latent space. At its core, LDE is a regularized variational autoencoder (VAE), harnessing the capabilities of the state-of-the-art Protein Language Model (pLM), ESM-2, to construct a meaningful latent space of sequences. From this encoded representation, we present a novel approach for efficient traversal on the fitness landscape, employing a combination of gradient-based methods and directed evolution. Experimental evaluations conducted on eight protein sequence design tasks demonstrate the superior performance of our proposed LDE over previous baseline algorithms. Our implementation is publicly available at https://github.com/HySonLab/LatentDECompeting Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2024/04/16/2024.04.13.589381},
+	eprint = {https://www.biorxiv.org/content/early/2024/04/16/2024.04.13.589381.full.pdf},
+	journal = {bioRxiv}
+}
+```
+
 ## Table of Contents:
 
 - [Introduction](#introduction)
