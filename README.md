@@ -1,7 +1,9 @@
 <div align="center">
 
-# Latent-based Directed Evolution
+# Latent-based Directed Evolution (LatentDE)
 </div>
+
+[LatentDE](LatentDE.png)
 
 ## Preprint
 
