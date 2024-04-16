@@ -3,7 +3,7 @@
 # Latent-based Directed Evolution (LatentDE)
 </div>
 
-[LatentDE](LatentDE.png)
+(LatentDE)[LatentDE.png]
 
 ## Preprint
 
