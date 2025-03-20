@@ -1,6 +1,6 @@
 <div align="center">
 
-# Latent-based Directed Evolution (LatentDE)
+# LatentDE: Latent-based Directed Evolution for Protein Sequence Design
 </div>
 
 ![LatentDE](LatentDE.png)
