@@ -5,6 +5,30 @@
 
 ![LatentDE](LatentDE.png)
 
+## Publication
+
+LatentDE: Latent-based Directed Evolution for Protein Sequence Design, Machine Learning: Science and Technology, DOI 10.1088/2632-2153/adc2e2
+
+https://iopscience.iop.org/article/10.1088/2632-2153/adc2e2
+
+```bibtex
+@article{10.1088/2632-2153/adc2e2,
+	author={Tran, Thanh and Ngo, Nhat Khang and Nguyen, Viet Thanh Duy and Hy, Truong-Son},
+	title={LatentDE: Latent-based Directed Evolution for Protein Sequence Design},
+	journal={Machine Learning: Science and Technology},
+	url={http://iopscience.iop.org/article/10.1088/2632-2153/adc2e2},
+	year={2025},
+	abstract={Directed evolution has been the most effective method for protein engineering that optimizes biological functionalities through a resource-intensive process of screening or selecting among a vast range of mutations. To mitigate this extensive procedure, recent advancements in machine learning-guided methodologies center around the establishment of a surrogate sequence-function model. In this paper, we propose Latent-based Directed Evolution (LDE), an evolutionary algorithm designed to prioritize the exploration of high-fitness mutants in the latent space. At its core, LDE is a regularized variational autoencoder (VAE), harnessing the capabilities of the state-of-the-art Protein Language Model (pLM), ESM-2, to construct a meaningful latent space of sequences. From this encoded representation, we present a novel approach for efficient traversal on the fitness landscape, employing a combination of gradient-based methods and directed evolution. Experimental evaluations conducted on eight protein sequence design tasks demonstrate the superior performance of our proposed LDE over previous baseline algorithms. Our implementation is publicly available at https://github.com/HySonLab/LatentDE}
+}
+```
+
+## Workshops
+
+NeurIPS 2024:
+* AI for Accelerated Materials Design: https://openreview.net/pdf?id=4YkbQGVWGF
+* Workshop on AI for New Drug Modalities: https://openreview.net/pdf?id=8AmP6pQwyP
+* Machine Learning for Structural Biology Workshop: https://www.mlsb.io/papers_2024/LatentDE:_Latent-based_Directed_Evolution_accelerated_by_Gradient_Ascent_for_Protein_Sequence_Design.pdf
+
 ## Preprint
 
 Latent-based Directed Evolution accelerated by Gradient Ascent for Protein Sequence Design
