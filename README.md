@@ -12,13 +12,19 @@ LatentDE: Latent-based Directed Evolution for Protein Sequence Design, Machine L
 https://iopscience.iop.org/article/10.1088/2632-2153/adc2e2
 
 ```bibtex
-@article{10.1088/2632-2153/adc2e2,
-	author={Tran, Thanh and Ngo, Nhat Khang and Nguyen, Viet Thanh Duy and Hy, Truong-Son},
-	title={LatentDE: Latent-based Directed Evolution for Protein Sequence Design},
-	journal={Machine Learning: Science and Technology},
-	url={http://iopscience.iop.org/article/10.1088/2632-2153/adc2e2},
-	year={2025},
-	abstract={Directed evolution has been the most effective method for protein engineering that optimizes biological functionalities through a resource-intensive process of screening or selecting among a vast range of mutations. To mitigate this extensive procedure, recent advancements in machine learning-guided methodologies center around the establishment of a surrogate sequence-function model. In this paper, we propose Latent-based Directed Evolution (LDE), an evolutionary algorithm designed to prioritize the exploration of high-fitness mutants in the latent space. At its core, LDE is a regularized variational autoencoder (VAE), harnessing the capabilities of the state-of-the-art Protein Language Model (pLM), ESM-2, to construct a meaningful latent space of sequences. From this encoded representation, we present a novel approach for efficient traversal on the fitness landscape, employing a combination of gradient-based methods and directed evolution. Experimental evaluations conducted on eight protein sequence design tasks demonstrate the superior performance of our proposed LDE over previous baseline algorithms. Our implementation is publicly available at https://github.com/HySonLab/LatentDE}
+@article{Tran_2025,
+doi = {10.1088/2632-2153/adc2e2},
+url = {https://dx.doi.org/10.1088/2632-2153/adc2e2},
+year = {2025},
+month = {mar},
+publisher = {IOP Publishing},
+volume = {6},
+number = {1},
+pages = {015070},
+author = {Tran, Thanh V T and Khang Ngo, Nhat and Thanh Duy Nguyen, Viet and Hy, Truong-Son},
+title = {LatentDE: latent-based directed evolution for protein sequence design},
+journal = {Machine Learning: Science and Technology},
+abstract = {Directed evolution (DE) has been the most effective method for protein engineering that optimizes biological functionalities through a resource-intensive process of screening or selecting among a vast range of mutations. To mitigate this extensive procedure, recent advancements in machine learning-guided methodologies center around the establishment of a surrogate sequence-function model. In this paper, we propose latent-based DE (LDE), an evolutionary algorithm designed to prioritize the exploration of high-fitness mutants in the latent space. At its core, LDE is a regularized variational autoencoder (VAE), harnessing the capabilities of the state-of-the-art protein language model, ESM-2, to construct a meaningful latent space of sequences. From this encoded representation, we present a novel approach for efficient traversal on the fitness landscape, employing a combination of gradient-based methods and DE. Experimental evaluations conducted on eight protein sequence design tasks demonstrate the superior performance of our proposed LDE over previous baseline algorithms. Our implementation is publicly available at https://github.com/HySonLab/LatentDE.}
 }
 ```
 
